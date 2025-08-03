@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Body>
+    <GetJobDetailsResponse xmlns="http://www.hp.com/schemas/imaging/OXPd/service/statistics/2014/06/26">
+      <GetJobDetailsResult>
+        <JobId>job-001</JobId>
+        <Status>Completed</Status>
+        <PagesPrinted>3</PagesPrinted>
+      </GetJobDetailsResult>
+    </GetJobDetailsResponse>
+  </s:Body>
+</s:Envelope>

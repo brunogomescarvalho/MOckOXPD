@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  oxpd-simulator:
+    build: .
+    ports:
+      - "8080:8080"
+    networks:
+      oxpd_net:
+        ipv4_address: 10.5.0.10
+
+networks:
+  oxpd_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/24
